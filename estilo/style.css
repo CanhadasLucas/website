@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --cor0: #0B3C5D;
+    --cor1: #00b4d8;
+    --cor2: #f77f00;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    max-height: 150px;
+    background-color: whitee;
+    linear
+}
+
+#logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+nav {
+    padding: 10px;
+    margin: 0px;
+}
+
+nav > a {
+    text-align: center;
+    text-decoration: none;
+    color: var(--cor0);
+    
+}
+
+nav > a:hover {
+    background-color: blue;
+    color: orange;
+
+}
+
+#banner {
+    background-image: url(../imagens/santorini.jpg);
+    border: 1px solid black;
+    width: 80vw;
+    height: 60vh;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: auto;
+}
